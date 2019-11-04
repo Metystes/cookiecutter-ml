@@ -1,3 +1,20 @@
+{{cookiecutter.project_name}}
+====================
+
+
+{{cookiecutter.project_short_description}}
+
+**Start Date:** {{cookiecutter.start_date}}
+
+**Release Date:** {{cookiecutter.realease_date}}
+
+
+Description
+-----
+
+**More Detailed Description**
+Lorem Ipsum
+
 Directory Structure
 --------------------
 
