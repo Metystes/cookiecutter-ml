@@ -1,21 +1,22 @@
-Reproducible ML for Minimalists
+{{cookiecutter.project_name}}
 ====================
 
-Pared-down project template for reproducible Machine Learning. Adopted from [Cookiecutter Data Science](https://cookiecutter.readthedocs.io/en/latest/readme.html) and [Mario Krapp](https://blog.mariokrapp.com/Cookiecutter_for_a_more_transparent_and_reproducible_science.html)   
 
-How to Use
+{{cookiecutter.project_short_description}}
+
+**Start Date:** {{cookiecutter.start_date}}
+
+**Release Date:** {{cookiecutter.realease_date}}
+
+
+Description
 -----
-1. First install cookiecutter:  
 
-`pip install cookiecutter`
+**More Detailed Description**
+Lorem Ipsum
 
-2. Then initialise a template:
 
-`cookiecutter gh:jeannefukumaru/cookiecutter-ml`
-
-More information on the cookiecutter project can be found [here](https://cookiecutter.readthedocs.io/en/latest/readme.html)
-
-Template Structure 
+Files Structure
 -----------------
 
 ```
@@ -30,13 +31,16 @@ Template Structure
     │   ├── processed <- data after all preprocessing has been done
     │   └── raw <- original unmodified data acting as source of truth and provenance
     ├── docs  <- usage documentation or reference papers
-    ├── notebooks <- jupyter notebooks for exploratory analysis and explanation 
+    ├── notebooks <- jupyter notebooks for exploratory analysis and explanation
+        └── {initials}_{number}_{title}.ipynb <- Names of the notebooks with initials of the person, number and short description
     ├── reports <- generated project artefacts eg. visualisations or tables
     │   └── figures
     └── src
-        ├── data-proc <- scripts for processing data eg. transformations, dataset merges etc. 
-        ├── viz  <- scripts for visualisation during EDA, modelling, error analysis etc. 
-        ├── modeling    <- scripts for generating models
-    |-- environment.yml . <- YAML file with libraries and library versions for recreating an environment
+        ├── data   <- Scripts to download or generate data 
+        ├── featurs     <- Scripts to turn raw data into features for modeling
+        ├── modeling    <- Scripts to train models and then use trained models to make
+        ├── utils       <- Scripts with general funcs and classes useful in the process
+        └── visualization  <- Scripts to create exploratory and results oriented visualizations
+    ├── environment.yml . <- YAML file with libraries and library versions for recreating an environment using conda
 ```
 

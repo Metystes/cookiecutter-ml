@@ -1,11 +1,13 @@
 {
-    "full_name": "Jeanne Choo",
+    "full_name": "Michał Wójcik",
     "email": "jchoo@aisingapore.org",
-    "github_username": "jeannefukumaru",
+    "department": "Fine Tuned",
+    "department_email": "example@example.pl",
+    "github_username": "Metystes",
     "project_name": "cookiecutter-ml",
     "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
     "project_short_description": "project template for reproducible ml",
-    "release_date": "{% now 'local' %}",
-    "version": "0.1.0",
-    "_extensions": ["jinja2_time.TimeExtension"]
+    "start_date": "20-10-2019",
+    "realease_date": "25-10-2019",
+    "version": "0.1.0"
 }
